@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Option</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .form-group label {
+      font-weight: bold;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      width: 120px;
+    }
+    .btn-primary:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+    .back-button {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Add Option</h2>
+  <form>
+    <div class="form-group">
+      <label for="optionName">Option Name</label>
+      <input type="text" class="form-control" id="optionName" name="optionName" required>
+    </div>
+    <div class="form-group">
+      <label for="pollId">Poll ID</label>
+      <input type="text" class="form-control" id="pollId" name="pollId" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Option</button>
+  </form>
+
+  <div class="back-button text-center">
+    <a href="index.html" class="btn btn-secondary mt-3">Back</a>
+  </div>
+</div>
+
+</body>
+</html>
